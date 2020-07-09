@@ -23,7 +23,6 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    NSLog(@"aaaa");
     //左侧菜单栏
     LeftViewController *leftViewController = [[LeftViewController alloc] init];
     

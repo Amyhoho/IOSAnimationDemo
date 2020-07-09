@@ -12,6 +12,7 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
+    NSLog(@"lalal");
     self.view.backgroundColor = [UIColor orangeColor];
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(SCREEN_WIDTH/2-100, 100, 200, 100)];
